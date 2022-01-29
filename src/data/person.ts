@@ -162,7 +162,7 @@ const person: Person = {
   selectedProjects: [
     {
       name: 'Housing Application',
-      baseUrl: '/selected-projects',
+      baseUrl: 'selected-projects',
       dir: 'housing',
       images: [
         {
