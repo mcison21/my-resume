@@ -140,7 +140,7 @@ const person: Person = {
   whatPeopleSay: [
     {
       title: 'Associate Director of Admissions',
-      say: 'Corey has been invaluable to the Admissions department over the years. There are critical ',
+      say: 'Corey has been invaluable to the Admissions Department over the years.',
     },
     {
       title: 'Chair, School of Social Work',
@@ -152,11 +152,11 @@ const person: Person = {
     },
     {
       title: 'Executive Director of Residence Life & Engagement',
-      say: '[Corey] was always open to feedback and always willing to collaborate with various constituents to improve student success.',
+      say: '[Corey] is always open to feedback and always willing to collaborate with various constituents to improve student success.',
     },
     {
       title: 'Co-worker',
-      say: '...app turned iPad distribution from a process that used to take hours to a task that could be completed in less than 20 minutes.',
+      say: '[Corey\'s] app turned iPad distribution from a process that used to take hours to a task that could be completed in less than 20 minutes.',
     },
   ],
   selectedProjects: [
