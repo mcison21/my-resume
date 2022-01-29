@@ -20,6 +20,7 @@
             <div class="secondary"></div>
             <div class="tertiary"></div>
         </div>
+        <h3 class="dark-mode-toggle">Dark mode</h3>
         <div
           @click="handleDarkModeToggle"
           class="dark-mode-toggle">
@@ -120,6 +121,7 @@ export default {
   display: grid;
   grid-template-areas:
     "p1 p2 p3"
+    "dmt dmt dmt"
     "dm dm dm";
   gap: 0.25rem;
 
@@ -215,6 +217,15 @@ export default {
 
 .pallete > div:nth-child(3) {
   background: var(--tertiary);
+}
+
+h3.dark-mode-toggle {
+  grid-area: dmt;
+  font-size: 0.7rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 0.25rem;
+  margin-bottom: -0.25rem;
 }
 
 .dark-mode-toggle {
