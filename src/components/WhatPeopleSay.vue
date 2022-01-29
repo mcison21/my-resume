@@ -72,8 +72,10 @@ export default defineComponent({
   position: relative;
 
   display: grid;
-  grid-template-columns: 0.3fr 0.8fr;
-  grid-template-areas: "info say";
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "say"
+    "info";
   align-items: center;
   min-width: 100%;
   margin: 0 auto;
@@ -91,12 +93,12 @@ export default defineComponent({
   @if $i % 2 == 0 {
     .comment:nth-child(#{$i}) {
       transform: translate(200px);
-      transition-delay: #{#{($i * 3) / 10} + 's'};
+      transition-delay: math.div(($i * 3), 10) + 's';
     }
   } @else {
     .comment:nth-child(#{$i}) {
       transform: translate(-200px);
-      transition-delay: #{#{($i * 3) / 10} + 's'};
+      transition-delay: math.div(($i * 3), 10) + 's';
     }
   }
 }
@@ -121,21 +123,13 @@ export default defineComponent({
   background: var(--tertiary);
   color: var(--txt-light);
   grid-area: say;
-
-  border-left: 5px solid var(--secondary);
   margin: 0;
 
   text-align: center;
 }
 
 .comment:nth-child(odd) {
-  grid-template-columns: 0.8fr 0.3fr;
-  grid-template-areas: "say info";
-}
-
-.comment:nth-child(odd) blockquote {
-  border-right: 5px solid var(--secondary);
-  border-left: 0;
+  grid-template-areas: "say" "info";
 }
 
 .comment .title-only, .comment .name-title {
