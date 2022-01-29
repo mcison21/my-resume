@@ -209,7 +209,7 @@ const person: Person = {
     },
     {
       name: 'Job Application',
-      baseUrl: '/selected-projects',
+      baseUrl: 'selected-projects',
       dir: 'jobs',
       images: [
         {
@@ -248,7 +248,7 @@ const person: Person = {
     },
     {
       name: 'Form Builder',
-      baseUrl: '/selected-projects',
+      baseUrl: 'selected-projects',
       dir: 'approval',
       images: [
         {
@@ -291,7 +291,7 @@ const person: Person = {
     },
     {
       name: 'Student Application',
-      baseUrl: '/selected-projects',
+      baseUrl: 'selected-projects',
       dir: 'student-application',
       images: [
         {
@@ -330,7 +330,7 @@ const person: Person = {
     },
     {
       name: 'Report Dashboard',
-      baseUrl: '/selected-projects',
+      baseUrl: 'selected-projects',
       dir: 'report',
       images: [
         {
@@ -373,7 +373,7 @@ const person: Person = {
     },
     {
       name: 'MyPass',
-      baseUrl: '/selected-projects',
+      baseUrl: 'selected-projects',
       dir: 'password-utility',
       images: [
         {
@@ -392,7 +392,7 @@ const person: Person = {
     },
     {
       name: 'Events Tracking',
-      baseUrl: '/selected-projects',
+      baseUrl: 'selected-projects',
       dir: 'events',
       images: [
         {
@@ -415,7 +415,7 @@ const person: Person = {
     },
     {
       name: 'Ticketing',
-      baseUrl: '/selected-projects',
+      baseUrl: 'selected-projects',
       dir: 'permits',
       images: [
         {
