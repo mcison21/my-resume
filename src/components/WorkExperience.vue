@@ -96,7 +96,13 @@ h3 {
 .skills ul {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   gap: 0.5rem;
+
+  background: var(--tertiary);
+  border-radius: var(--border-radius);
+  margin: 1rem 0;
+  padding: 1rem;
 }
 
 .skills li {
